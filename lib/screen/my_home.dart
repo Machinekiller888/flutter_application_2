@@ -27,7 +27,7 @@ class MyHomePage extends StatelessWidget {
               MaterialPageRoute(builder: (context) => MySecondPage()),
             );
 
-          }, child: Text("Next"))
+          }, child: Text("Next",style: TextStyle(fontSize: 20,color: Colors.red.shade300),))
         ],
       )),
     );

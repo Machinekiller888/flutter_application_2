@@ -12,10 +12,10 @@ class MySecondPage extends StatelessWidget {
       body: Center( 
         child:Column(
           children: [
-            Text("Second Page"),
+            Text("Second Page",style: TextStyle(fontWeight: FontWeight.bold,fontStyle:FontStyle.italic,fontSize: 30,color: Colors.green.shade300),),
             ElevatedButton(onPressed: (){
               Navigator.of(context).pop();
-            }, child: Text("Back"))
+            }, child: Text("Back",style: TextStyle(fontSize: 20,color: Colors.red.shade300),))
           ]
         ),
       ),
